@@ -20,7 +20,6 @@ import {
     DetailsSpan,
     HeartIcon,
     RedHeartIcon,
-    RatingIcon,
     ShowMoreBtn,
   CLItem,
   StarIcon,
@@ -36,7 +35,7 @@ import {
   import { ReactComponent as AC } from "../../images/svg/ac.svg";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAdverts,getIsLoading,filteredAdverts} from "../../redux/selectors";
+import { getAdverts,filteredAdverts} from "../../redux/selectors";
 import { fetchAllAdverts } from "../../redux/advertsOperations";
   
 export const CamperList = () => {

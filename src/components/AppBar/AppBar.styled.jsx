@@ -1,4 +1,3 @@
-import AppBar from "@mui/material/AppBar";
 import styled from '@emotion/styled';
 
 export const AppBarWrap = styled.div`
@@ -7,7 +6,6 @@ export const AppBarWrap = styled.div`
     display: flex;
     justify-content: center;
     gap: 24px;
-    /* background-color: var(--button-color); */
     background-color: #65a5d2;
     padding: 30px;
     opacity: 0.9;

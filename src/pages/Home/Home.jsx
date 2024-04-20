@@ -1,8 +1,5 @@
-import { HomeWrap, HeroWrap, ImgWrap, Title1, Title2, TitleAccent,HeartIcon,Ovarlay,HeroBtn,HeroContainer,Container } from "./Home.styled";
-import { ReactComponent as Heart } from "../../images/svg/heart.svg";
-import img1 from './k1.jpeg';
+import { HomeWrap, HeroWrap, ImgWrap, Title1, Title2,HeroBtn,HeroContainer,Container } from "./Home.styled";
 import hero from './hero2.jpeg';
-import img3 from './k3.jpeg';
 
 export default function Home() {
   return (
