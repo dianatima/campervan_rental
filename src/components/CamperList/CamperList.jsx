@@ -44,11 +44,12 @@ export const CamperList = () => {
   const [favorite, setFavorite] = useState([]);
   const [page, setPage] = useState(1);
 
-    // const toast = useNotification();
     const dispatch = useDispatch();
   let datalength = 13
-    useEffect(() => {
-      setFavorite(JSON.parse(localStorage.getItem('favoritesArray')))
+  useEffect(() => {
+    if (localStorage.getItem('favoritesArray')) {
+      setFavorite(JSON.parse(localStorage.getItem('favoritesArray'))) 
+      }
     },[])
   
     useEffect(() => {
