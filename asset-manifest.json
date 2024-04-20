@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/campervan_rental/static/css/main.ddd3f4ee.css",
-    "main.js": "/campervan_rental/static/js/main.2fbba283.js",
+    "main.js": "/campervan_rental/static/js/main.b3767c88.js",
     "static/js/990.e96031c4.chunk.js": "/campervan_rental/static/js/990.e96031c4.chunk.js",
-    "static/js/970.de9c9dd4.chunk.js": "/campervan_rental/static/js/970.de9c9dd4.chunk.js",
+    "static/js/970.424cc31e.chunk.js": "/campervan_rental/static/js/970.424cc31e.chunk.js",
     "static/js/733.e7743ad3.chunk.js": "/campervan_rental/static/js/733.e7743ad3.chunk.js",
     "static/media/hero2.jpeg": "/campervan_rental/static/media/hero2.98ab90218babde3a8b6f.jpeg",
     "static/media/ac.svg": "/campervan_rental/static/media/ac.4059b22c9dc93228cdd64abfa28d48b6.svg",
@@ -28,13 +28,13 @@
     "static/media/kitchen.svg": "/campervan_rental/static/media/kitchen.ad15febde36ef243dc46ef4c47c864da.svg",
     "static/media/closeBtn.svg": "/campervan_rental/static/media/closeBtn.041a085e41076d595080dceaaa585419.svg",
     "main.ddd3f4ee.css.map": "/campervan_rental/static/css/main.ddd3f4ee.css.map",
-    "main.2fbba283.js.map": "/campervan_rental/static/js/main.2fbba283.js.map",
+    "main.b3767c88.js.map": "/campervan_rental/static/js/main.b3767c88.js.map",
     "990.e96031c4.chunk.js.map": "/campervan_rental/static/js/990.e96031c4.chunk.js.map",
-    "970.de9c9dd4.chunk.js.map": "/campervan_rental/static/js/970.de9c9dd4.chunk.js.map",
+    "970.424cc31e.chunk.js.map": "/campervan_rental/static/js/970.424cc31e.chunk.js.map",
     "733.e7743ad3.chunk.js.map": "/campervan_rental/static/js/733.e7743ad3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddd3f4ee.css",
-    "static/js/main.2fbba283.js"
+    "static/js/main.b3767c88.js"
   ]
 }
