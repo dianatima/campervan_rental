@@ -18,7 +18,6 @@ margin-right: auto;
 `;
 
 export const HomeWrap = styled.div`
-/* width: 1440px; */
 margin-left: auto;
 margin-right: auto;
 padding-top: 80px;
@@ -33,7 +32,6 @@ position: relative;
 `;
 
 export const ImgWrap = styled.img`
-/* width: 1440px; */
 width: 100%;
 display: block;
 object-fit: cover;
@@ -55,7 +53,6 @@ z-index: 10;
 top: 120px;
 right: 150px;
 font-size: 72px;
-/* color: var(--button-color); */
 `;
 
 export const TitleAccent = styled.span`
@@ -81,7 +78,6 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 background-color: #32acea;
-/* background-color: #fff; */
 position: absolute;
 top: 0;
 left: 0;
@@ -102,7 +98,6 @@ outline: none;
 color: #eee6e6;
 width: 300px;
 font-weight: 500;
-/* opacity: 0.9; */
 
 &:hover {
     background: var(--button-hover-color);

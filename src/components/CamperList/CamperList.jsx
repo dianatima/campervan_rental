@@ -112,7 +112,7 @@ export const CamperList = () => {
                       <Title>{advert.name}</Title>
                       <PriceWrap>
                         <Price>Є{advert.price.toString().concat('.00')}</Price>
-                        {favorite.includes(advert._id)? <RedHeartIcon onClick={()=>removeFavorite(advert._id)} />:<HeartIcon onClick={()=>addFavorite(advert._id)} />}
+                        {favorite?.includes(advert._id)? <RedHeartIcon onClick={()=>removeFavorite(advert._id)} />:<HeartIcon onClick={()=>addFavorite(advert._id)} />}
                       </PriceWrap>
                     </MainBlock>
                     <SeconBlockWrap>

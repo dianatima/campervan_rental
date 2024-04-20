@@ -4,14 +4,10 @@ import hero from './hero2.jpeg';
 export default function Home() {
   return (
     <HomeWrap>
-      {/* <h2>Welcome to Campervan rent App</h2> */}
-      {/* <img src={img1} /> */}
       <HeroWrap>
         <ImgWrap src={hero} />
-        {/* <Ovarlay></Ovarlay> */}
         <HeroContainer>
         <Title1>Home is where we parked</Title1>
-        {/* <HeartIcon /> */}
         <Title2></Title2>
           <HeroBtn>CAMPERVANS</HeroBtn>
           </HeroContainer>
@@ -35,7 +31,6 @@ export default function Home() {
         <p>Lorem ipsum dolor sit, amet cons</p>
         <p>Lorem ipsum dolor sit, amet cons</p>
         </Container>
-      {/* <img src={img3} /> */}
     </HomeWrap>
   );
 }
