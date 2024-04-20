@@ -1,6 +1,5 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 import { ReactComponent as Star } from "../../images/svg/star.svg";
-
 
 export const StarIcon = styled(Star)`
 stroke: var(--rating-color);
@@ -17,7 +16,6 @@ export const Ovarlay = styled.div`
 `;
 
 export const ContentWraper = styled.div`
-/* padding-bottom:200px; */
 height: 140vh;
 position: absolute;
 top: 10%;
@@ -147,7 +145,6 @@ padding-top: 44px;
 display: flex;
 justify-content: space-between;
 `;
-
 
 export const Pb10 = styled.div`
  padding-bottom: 10px;

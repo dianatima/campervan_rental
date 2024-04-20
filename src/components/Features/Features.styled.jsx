@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
 export const FeaturesWrap = styled.div`
     display: flex;
@@ -6,11 +6,6 @@ export const FeaturesWrap = styled.div`
     width: 430px;
     height: 530px;
     justify-content: space-between;
-/* 
-    & input {
-        height: 30px;  
-        margin-left: 10px;
-    } */
 `;
 
 export const VDWrap = styled.div`
@@ -18,7 +13,6 @@ export const VDWrap = styled.div`
     flex-direction: column;
     width: 430px;
     height: 530px;
-    /* justify-content: space-between; */
 `;
 
 export const VDTitle = styled.p`

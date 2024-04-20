@@ -123,6 +123,6 @@ html::-webkit-scrollbar-thumb {
   border: 2px solid rgb(55, 65, 81);
 } */
 
-/* html {
+body.no-scroll {
   overflow-y: hidden;
- } */
+ }

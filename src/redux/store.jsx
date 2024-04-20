@@ -1,6 +1,6 @@
-import { configureStore } from '@reduxjs/toolkit';
-import { advertSlice } from './advertSlice';
-import { filterSlice } from './filterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import { advertSlice } from "./advertSlice";
+import { filterSlice } from "./filterSlice";
 
 export const store = configureStore({
   reducer: {
@@ -10,4 +10,3 @@ export const store = configureStore({
 });
 
 export default store;
-

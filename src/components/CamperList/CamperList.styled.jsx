@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
-import { ReactComponent as Heart } from '../../images/svg/heart.svg';
+import styled from "@emotion/styled";
+import { ReactComponent as Heart } from "../../images/svg/heart.svg";
 import { ReactComponent as Star } from "../../images/svg/star.svg";
 
 export const StarIcon = styled(Star)`
@@ -90,7 +90,6 @@ export const SeconBlock = styled.div`
   gap: 4px;
   align-items: center;
 `;
-    
 
 export const Price = styled.p`
 font-size: 24px;
@@ -112,7 +111,6 @@ text-decoration-line: underline;
 
 export const MainTextWrap = styled.div`
 `;
-
 
 export const MainText = styled.p`
 text-overflow: ellipsis;
@@ -191,13 +189,12 @@ export const NoCamperText = styled.p`
 text-overflow: ellipsis;
 white-space: nowrap;
 overflow: hidden;
-font-size: 16px;
+font-size: 24px;
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 line-height: 1.5;
 color: var(--text-color);
 `;
-
 
 export const LoadMoreBtn = styled.button`
 padding: 16px 32px;

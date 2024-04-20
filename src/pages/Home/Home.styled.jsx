@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 import { ReactComponent as Heart } from "../../images/svg/heart.svg";
 
 export const HeroContainer = styled.div`
@@ -36,7 +36,7 @@ width: 100%;
 display: block;
 object-fit: cover;
 object-position: center;
-`; 
+`;
 
 export const Title1 = styled.h1`
 position: absolute;
@@ -102,4 +102,87 @@ font-weight: 500;
 &:hover {
     background: var(--button-hover-color);
   }
+`;
+
+export const AdvWrap = styled.section`
+display: flex;
+justify-content: space-between;
+padding: 80px 0;
+`;
+
+export const AdvDiv = styled.div`
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+align-items: center;
+width: 320px;
+text-align: center;
+`;
+
+export const AdvIcon = styled.div`
+min-height: 84px;
+`;
+
+export const AsvTitle = styled.p`
+color: var(--main-color);
+font-size: 24px;
+font-weight: 600;
+line-height: 1.25;
+`;
+
+export const AsvText = styled.p`
+color: var(--main-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.25;
+`;
+
+  export const FotoWrap = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  `;
+
+export const FotoTitle = styled.p`
+color: var(--main-color);
+font-size: 32px;
+font-weight: 600;
+line-height: 1.25;
+`;
+
+export const FotoImgWrap = styled.h2`
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 10px;
+`;
+
+export const FotoImg = styled.img`
+height: 210px;
+border-radius: 10px;
+display: block;
+object-fit: cover;
+object-position: center;
+`;
+
+export const Footer = styled.footer`
+background-color: #d5e3ed;
+padding: 30px 0;
+margin-top: 80px;
+`;
+
+export const FooterWrap = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+`;
+
+export const FooterText = styled.p`
+color: var(--text-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
 `;

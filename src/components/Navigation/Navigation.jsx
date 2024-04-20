@@ -1,7 +1,6 @@
 import { NavItem } from "./Navigation.styled";
 
 export const Navigation = () => {
-
   return (
     <>
       <NavItem to="/">Home</NavItem>

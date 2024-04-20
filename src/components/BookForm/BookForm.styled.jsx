@@ -1,6 +1,5 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 import { ReactComponent as Calendar } from "../../images/svg/calendar.svg";
-
 
 export const FormWrap = styled.div`
     display: flex;

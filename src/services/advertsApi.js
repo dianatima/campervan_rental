@@ -9,12 +9,3 @@ async function fetchAdvertsAPI(page = 1) {
 }
 
 export default fetchAdvertsAPI;
-// export async function addContact({ name, number }) {
-//   const res = await axios.post(`/contacts`, { name, number });
-//   return res.data;
-// }
-
-// export async function deleteContact(contactId) {
-//   const res = await axios.delete(`/contacts/${contactId}`);
-//   return res.data;
-// }

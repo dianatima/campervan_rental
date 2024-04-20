@@ -1,6 +1,5 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 import { ReactComponent as Star } from "../../images/svg/star.svg";
-
 
 export const StarIconGold = styled(Star)`
 width: 16px;
@@ -31,7 +30,6 @@ export const ReviewWrap = styled.div`
     justify-content: left;
     gap: 16px;
 `;
-
 
 export const UserBlock = styled.div`
     display: flex;

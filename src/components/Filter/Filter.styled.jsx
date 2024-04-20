@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 import { ReactComponent as Location } from "../../images/svg/location.svg";
 
 export const LocationIcon = styled(Location)`
@@ -24,7 +24,6 @@ export const FilterWrap = styled.div`
     width: 360px;
 `;
 
-
 export const LocationBlock = styled.div`
     width: 360px;
 `;
@@ -39,7 +38,6 @@ export const LocationText = styled.div`
     left: 18px;
 
 `;
-
 
 export const FilterBlock = styled.div`
     width: 360px;
@@ -94,7 +92,6 @@ export const FilterTitle = styled.p`
     font-weight: 600;
     line-height: 1.2;
 `;
-
 
 export const DetailsWrap = styled.div`
    display: flex;
@@ -178,6 +175,7 @@ line-height: 1.5;
 outline: none;
 color: white;
 width: 173px;
+margin-top: 64px;
 
 &:hover {
     background: var(--button-hover-color);

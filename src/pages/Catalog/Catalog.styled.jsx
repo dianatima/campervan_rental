@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
 export const CatalogWrap = styled.div`
     display: flex;
@@ -6,6 +6,5 @@ export const CatalogWrap = styled.div`
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
-   /* justify-content: space-between; */
    gap: 64px;
 `;
