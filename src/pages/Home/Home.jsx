@@ -3,7 +3,6 @@ import {
   HeroWrap,
   ImgWrap,
   Title1,
-  Title2,
   HeroBtn,
   HeroContainer,
   Container,
